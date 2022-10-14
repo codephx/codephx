@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { AppHeader } from "./components/Header";
+import {CPHero} from "./components/CPHero";
+import {CPFeatures} from "./components/CPFeatures";
+import {CPFaq} from "./components/CPFaq";
+import {CPContact} from "./components/CPContact";
+import {CPFooter} from "./components/CPFooter";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppHeader />
+        <CPHero />
+        <CPFeatures />
+        <CPFaq />
+        <CPContact />
+        <CPFooter />
     </div>
   );
 }
