@@ -91,17 +91,16 @@ export function CPFeatures() {
         <Container size="lg" py="xl">
             <Group position="center">
                 <Badge variant="filled" size="lg">
-                    Best company ever
+                   In our Community
                 </Badge>
             </Group>
 
             <Title order={2} className={classes.title} align="center" mt="sm">
-                Integrate effortlessly with any technology stack
+                Everyone made a step to rise from the ashes of a dead career and jump in to tech
             </Title>
 
             <Text color="dimmed" className={classes.description} align="center" mt="md">
-                Every once in a while, you’ll see a Golbat that’s missing some fangs. This happens when
-                hunger drives it to try biting a Steel-type Pokémon.
+                We pride ourselves and being there to help people who want to grow in to something bigger and better for themselves and the ones they love
             </Text>
 
             <SimpleGrid cols={3} spacing="xl" mt={50} breakpoints={[{ maxWidth: 'md', cols: 1 }]}>

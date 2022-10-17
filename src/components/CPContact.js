@@ -27,7 +27,7 @@ export function CPContact() {
                 mt={'lg'}
                 align="center"
             >
-                Get in touch
+                Want to join?
             </Title>
 
             <SimpleGrid cols={2} mt="xl" breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
@@ -64,7 +64,7 @@ export function CPContact() {
                 autosize
                 name="message"
                 variant="filled"
-                {...form.getInputProps('subject')}
+                {...form.getInputProps('message')}
             />
 
             <Group position="center" mt="xl">

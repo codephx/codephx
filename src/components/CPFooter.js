@@ -91,6 +91,7 @@ const useStyles = createStyles((theme) => ({
         fontSize: theme.fontSizes.sm,
         paddingTop: 3,
         paddingBottom: 3,
+        textDecoration: 'none',
 
         '&:hover': {
             textDecoration: 'underline',
